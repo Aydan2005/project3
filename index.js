@@ -102,8 +102,8 @@ function changedP() {
       converter1.innerHTML = `1 <span>${currency1}</span> = <span>1</span> <span>${currency2}</span>`;
       converter2.innerHTML = `1 <span>${currency2}</span> = <span>1</span> <span>${currency1}</span>`;
     } else {
-      converter1.innerHTML = `Cannot update rates`;
-      converter2.innerHTML = `Cannot update rates`;
+      converter1.innerHTML = `Не могу обновить тарифы`;
+      converter2.innerHTML = `Не могу обновить тарифы`;
     }
     return;
   }
