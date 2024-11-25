@@ -133,7 +133,7 @@ function fetchLatestExchangeRates() {
 
 function validateInput(value) {
   value = value.replace(/,/g, '.');
-  let regex = /^(0(?!0)|[1-9][0-9]*|[,.][0-9]*)([,.][0-9]{0,5})?$/;
+  let regex = /^(0(?!0)|[1-9][0-9]*)([,.][0-9]{0,5})?$/;
   if (value[19] === '.' || value[19] === ',') {
     value = value.slice(0, -1);
   }
